@@ -1,0 +1,291 @@
+{
+  "greeting": {
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "assalam",
+      "salam",
+      "good morning",
+      "good evening"
+    ],
+    "responses": [
+      "Hello! I am your AI Career Mentor Bot. I provide personalized AI/ML guidance based on your current level. Are you a beginner, intermediate, or advanced learner?",
+      "Hi! I can help you choose the right AI/ML learning path. Please tell me your current level: beginner, intermediate, or advanced."
+    ]
+  },
+
+  "goodbye": {
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "exit",
+      "quit"
+    ],
+    "responses": [
+      "Goodbye! Keep learning, keep building, and keep improving your portfolio.",
+      "See you soon. Remember: consistent project-building is the fastest way to grow in AI."
+    ]
+  },
+
+  "beginner_level": {
+    "patterns": [
+      "beginner",
+      "i am beginner",
+      "i am a beginner",
+      "i am new",
+      "from scratch",
+      "zero knowledge",
+      "complete beginner",
+      "i don't know anything",
+      "i do not know anything",
+      "i want to start ai",
+      "i want to start machine learning"
+    ],
+    "responses": [
+      "Great! You seem to be at beginner level. I will suggest a beginner-friendly AI/ML roadmap."
+    ]
+  },
+
+  "basic_knowledge": {
+    "patterns": [
+        "yes i know",
+        "yes, i know",
+        "i know few things",
+        "i know a few things",
+        "i know some things",
+        "i know some concepts",
+        "i know few concepts",
+        "i know a few concepts",
+        "i have basic knowledge",
+        "i have basic understanding",
+        "i know the basics",
+        "i know basics",
+        "i know some basics",
+        "i know programming basics",
+        "i know ai basics",
+        "i know ml basics",
+        "i have little knowledge",
+        "i have some knowledge",
+        "i pretty much know few things",
+        "i pretty much know a few things"
+    ],
+    "responses": [
+        "Got it. You seem to have some basic knowledge. I would place you between beginner and intermediate. I recommend strengthening your Python and ML fundamentals, then moving toward projects."
+    ]
+    },
+
+  "intermediate_level": {
+    "patterns": [
+      "intermediate",
+      "i know python",
+      "i know machine learning",
+      "i know ml",
+      "i have some experience",
+      "i have built small projects",
+      "i know basics of ml",
+      "i completed python",
+      "i know pandas",
+      "i know numpy",
+      "i have done ml projects"
+    ],
+    "responses": [
+      "Nice! You seem to be at intermediate level. I will suggest a roadmap focused on projects, APIs, deployment, and specialization."
+    ]
+  },
+
+  "advanced_level": {
+    "patterns": [
+      "advanced",
+      "experienced",
+      "i know deep learning",
+      "i have built models",
+      "i have deployed models",
+      "i know transformers",
+      "i have worked with llms",
+      "i know pytorch",
+      "i know tensorflow",
+      "i have production experience",
+      "i have trained models"
+    ],
+    "responses": [
+      "Excellent! You seem ready for advanced AI engineering topics like RAG, fine-tuning, agents, monitoring, and scalable deployment."
+    ]
+  },
+
+  "python_learning": {
+    "patterns": [
+      "learn python",
+      "python roadmap",
+      "how to learn python",
+      "start python",
+      "python basics",
+      "python for ai",
+      "python for machine learning"
+    ],
+    "responses": [
+      "To learn Python for AI, focus on variables, data types, conditions, loops, functions, lists, dictionaries, file handling, OOP, modules, and small automation projects."
+    ]
+  },
+
+  "machine_learning": {
+    "patterns": [
+      "learn machine learning",
+      "machine learning roadmap",
+      "ml roadmap",
+      "start ml",
+      "how to learn ml",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "responses": [
+      "For machine learning, learn supervised learning, regression, classification, model evaluation, overfitting, feature engineering, and scikit-learn projects."
+    ]
+  },
+
+  "deep_learning": {
+    "patterns": [
+      "learn deep learning",
+      "deep learning roadmap",
+      "neural networks",
+      "cnn",
+      "rnn",
+      "transformers",
+      "pytorch",
+      "tensorflow"
+    ],
+    "responses": [
+      "For deep learning, start with neural networks, backpropagation basics, CNNs, RNNs, transformers, PyTorch or TensorFlow, and then build image and text-based projects."
+    ]
+  },
+
+  "nlp": {
+    "patterns": [
+      "learn nlp",
+      "nlp roadmap",
+      "natural language processing",
+      "text classification",
+      "sentiment analysis",
+      "text preprocessing",
+      "language models"
+    ],
+    "responses": [
+      "For NLP, start with text preprocessing, tokenization, bag-of-words, TF-IDF, sentiment analysis, text classification, embeddings, transformers, and then RAG."
+    ]
+  },
+
+  "computer_vision": {
+    "patterns": [
+      "learn computer vision",
+      "cv roadmap",
+      "image classification",
+      "object detection",
+      "opencv",
+      "image processing",
+      "cnn project"
+    ],
+    "responses": [
+      "For computer vision, start with OpenCV, image preprocessing, CNNs, image classification, object detection, transfer learning, and real-time camera-based projects."
+    ]
+  },
+
+  "rag": {
+    "patterns": [
+      "rag",
+      "retrieval augmented generation",
+      "learn rag",
+      "rag project",
+      "chat with pdf",
+      "pdf chatbot",
+      "vector database",
+      "embeddings"
+    ],
+    "responses": [
+      "RAG means Retrieval-Augmented Generation. Learn document loading, chunking, embeddings, vector databases, retrieval, prompt design, and LLM-based answer generation."
+    ]
+  },
+
+  "llm_finetuning": {
+    "patterns": [
+      "fine tuning",
+      "finetuning",
+      "llm fine tuning",
+      "fine tune llm",
+      "train llm",
+      "custom llm"
+    ],
+    "responses": [
+      "For LLM fine-tuning, first understand datasets, tokenization, instruction tuning, LoRA, QLoRA, evaluation, GPU limits, and when fine-tuning is better than RAG."
+    ]
+  },
+
+  "ai_agents": {
+    "patterns": [
+      "ai agents",
+      "agent",
+      "llm agent",
+      "tools",
+      "function calling",
+      "agentic ai",
+      "autonomous agent"
+    ],
+    "responses": [
+      "AI agents use LLMs with tools, memory, planning, and actions. Start by building a simple tool-using assistant, then add memory, task planning, and external APIs."
+    ]
+  },
+
+  "deployment": {
+    "patterns": [
+      "deploy model",
+      "model deployment",
+      "deploy ai app",
+      "fastapi deployment",
+      "how to deploy ml model",
+      "docker",
+      "api for model",
+      "deploy chatbot"
+    ],
+    "responses": [
+      "To deploy an AI/ML app, create a FastAPI backend, expose prediction or chat endpoints, test locally, add Docker, and deploy on Render, Railway, AWS, GCP, or Azure."
+    ]
+  },
+
+  "portfolio_projects": {
+    "patterns": [
+      "project ideas",
+      "portfolio projects",
+      "ai projects",
+      "ml projects",
+      "what projects should i build",
+      "best ai projects",
+      "github projects"
+    ],
+    "responses": [
+      "Good AI portfolio projects include: AI Career Mentor Bot, sentiment analyzer, ML prediction API, resume screening bot, RAG PDF chatbot, computer vision attendance system, and AI agent assistant."
+    ]
+  },
+
+  "resume_guidance": {
+    "patterns": [
+      "resume",
+      "cv",
+      "linkedin",
+      "portfolio",
+      "github profile",
+      "how to get job",
+      "ai engineer job"
+    ],
+    "responses": [
+      "For AI career growth, build strong GitHub projects, write clear READMEs, deploy at least one app, add project demos, improve LinkedIn, and explain your work through case studies."
+    ]
+  },
+
+  "unknown": {
+    "patterns": [],
+    "responses": [
+      "I am not fully sure about that yet. You can ask me about Python, ML, deep learning, NLP, computer vision, RAG, LLM fine-tuning, AI agents, deployment, or portfolio projects."
+    ]
+  }
+}
