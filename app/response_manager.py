@@ -63,7 +63,7 @@ class ResponseManager:
 
             return response
         
-    def get_project_reommendations(self, user_state):
+    def get_project_recommendations(self, user_state):
         "Recommend projects based on the user's saved level"
         level = user_state.get("level")
 
