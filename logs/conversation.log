@@ -1,0 +1,35 @@
+2026-05-13 19:51:27,842 - USER: yes, I pretty much know few things and concepts
+2026-05-13 19:51:27,842 - INTENT: unknown
+2026-05-13 19:51:27,843 - STATE: {'level': None, 'last_intent': 'unknown', 'message_count': 1}
+2026-05-13 19:51:27,843 - BOT: I do not have a response for that yet.
+2026-05-13 19:51:39,045 - USER: yes i know
+2026-05-13 19:51:39,046 - INTENT: unknown
+2026-05-13 19:51:39,046 - STATE: {'level': None, 'last_intent': 'unknown', 'message_count': 2}
+2026-05-13 19:51:39,046 - BOT: I do not have a response for that yet.
+2026-05-13 20:00:30,622 - USER: yes, I pretty much know few things and concepts
+2026-05-13 20:00:30,622 - INTENT: intermediate_level
+2026-05-13 20:00:30,622 - STATE: {'level': 'intermediate', 'last_intent': 'intermediate_level', 'message_count': 1}
+2026-05-13 20:00:30,626 - BOT: I could not find a learning path for this level.
+2026-05-13 20:00:56,816 - USER: yes i know few things
+2026-05-13 20:00:56,817 - INTENT: intermediate_level
+2026-05-13 20:00:56,817 - STATE: {'level': 'intermediate', 'last_intent': 'intermediate_level', 'message_count': 1}
+2026-05-13 20:00:56,817 - BOT: I could not find a learning path for this level.
+2026-05-13 20:03:39,172 - USER: yes i know few things
+2026-05-13 20:03:39,172 - INTENT: basic_knowledge
+2026-05-13 20:03:39,173 - STATE: {'level': 'beginner', 'last_intent': 'basic_knowledge', 'message_count': 1}
+2026-05-13 20:03:39,173 - BOT: Got it. You seem to have some basic knowledge, but not enough detail yet.
+
+I will place you at an advanced-beginner level for now.
+
+Recommended next steps:
+1. Revise Python basics
+2. Learn NumPy and Pandas
+3. Learn basic statistics
+4. Start machine learning fundamentals
+5. Build 2 small beginner projects
+
+After that, you can move to intermediate projects.
+2026-05-13 20:03:59,837 - USER: i have build the projects
+2026-05-13 20:03:59,837 - INTENT: unknown
+2026-05-13 20:03:59,837 - STATE: {'level': 'beginner', 'last_intent': 'unknown', 'message_count': 2}
+2026-05-13 20:03:59,838 - BOT: I do not have a response for that yet.
